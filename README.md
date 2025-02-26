@@ -3,7 +3,7 @@
 📚 Ingeniera de Sistemas Computacionales <br> 
 🔍 Technical Community Manager LATAM @ The Graph <br>
 🎙️ Tengo un podcast donde cuento historias de mujeres en web3! [GrapHER Club Podcast](https://www.youtube.com/watch?v=xTS_HsCSji8&list=PLpu5qHxemrNgu3TLiYFFQfo_n5I1VZBKO&index=17) <br>
-🌺 Aprendo y enseño todo lo que sé, de forma sencilla! 
+🌺 Aprendo y enseño todo lo que sé, de forma sencilla! <br>
 🖥️ #learningInPublic 
 
 ![Emmi's GitHub stats](https://github-readme-stats.vercel.app/api?username=emmi-lili&theme=tokyonight&show_icons=true)
@@ -18,5 +18,14 @@
 
 ---
 [![](https://visitcount.itsvg.in/api?id=emmi-lili&icon=0&color=0)](https://visitcount.itsvg.in)
+
+# 🖥️ Videos de Youtube que te pueden servir
+
+<!-- BEGIN YOUTUBE-CARDS -->
+
+[![The Graph Explained In 1 Minute](https://ytcards.demolab.com/?id=hn-sJUpZ_aM&title=The+graph+explained+in+1+minute&lang=esp&timestamp=&background_color=%230d1117&title_color=%23fffffff&stats_color=%23dedede&maxtitle_lines=1&width=250&border_radius=5&duration=67_"The Graph Explained In 1 Minute")](https://www.youtube.com/watch?v=hn-sJUpZ_aM)
+<!-- END YOUTUBE-CARDS -->
+
+
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
