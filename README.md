@@ -23,12 +23,6 @@
 
 <!-- BEGIN YOUTUBE-CARDS -->
 
-<a href="[https://www.youtube.com/watch?v=1lXaKEy97qE](https://www.youtube.com/watch?v=hn-sJUpZ_aM)">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=1lXaKEy97qE&title=GitHub+Star+Swag+Unboxing+and+Giveaways&lang=en&timestamp=1696868769&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=2&width=250&border_radius=5&duration=172">
-    <img src="https://ytcards.demolab.com/?id=hn-sJUpZ_aM&title=GitHub+Star+Swag+Unboxing+and+Giveaways&lang=en&timestamp=1696868769&background_color=%23ffffff&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=172" alt="GitHub Star Swag Unboxing and Giveaways" title="GitHub Star Swag Unboxing and Giveaways">
-  </picture>
-</a>
 <!-- END YOUTUBE-CARDS -->
 
 
