@@ -1,7 +1,7 @@
 ### Hola, Soy Emmi! 🦋
 
 📚 Ingeniera de Sistemas Computacionales <br> 
-🔍 Technical Community Manager LATAM @ The Graph <br>
+🔍 Product Manager @ Sherry Protocol <br>
 🎙️ Tengo un podcast donde cuento historias de mujeres en web3! [GrapHER Club Podcast](https://www.youtube.com/watch?v=xTS_HsCSji8&list=PLpu5qHxemrNgu3TLiYFFQfo_n5I1VZBKO&index=17) <br>
 🌺 Aprendo y enseño todo lo que sé, de forma sencilla! <br>
 🖥️ #learningInPublic 
