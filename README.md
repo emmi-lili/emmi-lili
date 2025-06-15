@@ -2,7 +2,7 @@
 
 📚 Ingeniera de Sistemas Computacionales <br> 
 🔍 Product Manager @ Sherry Protocol <br>
-🎙️ Tengo un podcast donde cuento historias de mujeres en web3! [GrapHER Club Podcast](https://www.youtube.com/watch?v=xTS_HsCSji8&list=PLpu5qHxemrNgu3TLiYFFQfo_n5I1VZBKO&index=17) <br>
+🎙️ Tengo un canal de youtube donde enseño web3! [Capa Zero]([https://www.youtube.com/watch?v=xTS_HsCSji8&list=PLpu5qHxemrNgu3TLiYFFQfo_n5I1VZBKO&index=17](https://www.youtube.com/@CapaZero-Emmi)) <br>
 🌺 Aprendo y enseño todo lo que sé, de forma sencilla! <br>
 🖥️ #learningInPublic 
 
