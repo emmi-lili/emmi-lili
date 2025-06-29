@@ -1,7 +1,6 @@
 ### Hola, Soy Emmi! 🦋
 
 📚 Ingeniera de Sistemas Computacionales <br> 
-🔍 Product Manager @ Sherry Protocol <br>
 🎙️ Tengo un canal de youtube donde enseño web3! ----> [Capa Zero](https://www.youtube.com/@CapaZero-Emmi) <br>
 🌺 Aprendo y enseño todo lo que sé, de forma sencilla! <br>
 🖥️ #learningInPublic 
