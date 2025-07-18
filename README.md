@@ -5,7 +5,6 @@
 🌺 Aprendo y enseño todo lo que sé, de forma sencilla! <br>
 🖥️ #learningInPublic 
 
-![Emmi's GitHub stats](https://github-readme-stats.vercel.app/api?username=emmi-lili&theme=tokyonight&show_icons=true)
 
 
 ## 🌐 Socials:
