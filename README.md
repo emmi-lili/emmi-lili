@@ -1,8 +1,10 @@
 <h1 align="center"><b>Hi , It's Emmi </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 <!--  -->
-<img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="30px">&nbsp; 
+<img align="right" width="300px" alt="Busy cute" src="https://tenor.com/uQR2ayExfaZ.gif"/>
 
-## About me:
+
+
+## <img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="30px">&nbsp; About me
 
 I'm a Software Engineer specialized in Blockchain, founder of CapaZero, I consider myself as a connect towards building bridges between Web3 architecture and real human needs. From local roots in Bolivia to global stages, I translate complex crypto concepts into engaging tutorials, workshops and community training.
 
