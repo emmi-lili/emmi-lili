@@ -1,4 +1,5 @@
-### Hola, Soy Emmi! 🦋
+<h1 align="center"><b>Hi , It's Emmi </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
+<!--  -->
 
 📚 Ingeniera de Sistemas Computacionales <br> 
 🎙️ Tengo un canal de youtube donde enseño web3! ----> [Capa Zero](https://www.youtube.com/@CapaZero-Emmi) <br>
