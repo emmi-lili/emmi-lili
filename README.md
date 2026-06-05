@@ -15,7 +15,7 @@ I'm a Software Engineer specialized in Blockchain, founder of CapaZero, I consid
 - 🎤 I speak at international conferences across LATAM, Europe and Asia.
 - 📚 I create Web3 educational content for non-technical audiences on my socials.
 - 🤝 I'm always open to collaborate on open source projects and community initiatives.
-- 📬 Reach out: [@emmicriptada](https://twitter.com/emmicriptada)
+- 📬 Reach out: [@emmcriptada](https://twitter.com/emmcriptada)
 
 
 
