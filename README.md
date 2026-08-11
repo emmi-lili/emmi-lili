@@ -25,4 +25,11 @@ I'm a Software Engineer specialized in Blockchain and founder of CapaZero, build
 
 
 
-# 💻
+# 💻 Tech Stack:
+**Languages**
+
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white) ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
+**Web3 & Blockchain**
+
+![Stellar](https://img.shields.io/badge/Stellar-7D00FF?style=for-the-badge&logo=stellar&logoColor=white) ![Midnight](https://img.shields.io/badge/Midnight-1A1A2E?style=for-the-badge&logoColor=white) ![Polygon](https://img.shields.io/badge/Polygon-8247E5?style=for-the-badge&logo=polygon&logoColor=white) ![Optimism](https://img.shields.io/badge/Optimism-FF0420?style=for-the-badge&logo=optimism&logoColor=white) ![Hardhat](https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logo=ethereum&logoColor=black) ![Foundry](https://img.shields.io/badge/Foundry-000000?style=for-the-badge&logo=foundry&logoColor=white) ![Wagmi](https://img.shields.io/badge/Wagmi-1C1B1B?style=for-the-badge&logoColor=white) ![Viem](https://img.shields.io/badge/Viem-FFD700?style=for-the-badge&logoColor=black)
