@@ -69,7 +69,7 @@ Soy **Emmi** — blockchain engineer y tech lead, transmitiendo desde La Paz. Co
 </td>
 <td width="50%" align="center" valign="middle">
 
-<!-- Live radar built from real language byte counts across your repos -->
+<!-- Hand-authored contract & language stack radar - edit assets/langmix.json -->
 <picture>
   <source media="(prefers-color-scheme: dark)"  srcset="assets/radar-langs-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/radar-langs-light.svg">
