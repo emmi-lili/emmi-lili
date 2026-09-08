@@ -32,13 +32,18 @@
 
 ## `// quién transmite`
 
-Soy **Emmi** — blockchain engineer y tech lead, transmitiendo desde La Paz. Construyo la infraestructura que mueve activos digitales y me obsesiona que la gente normal pueda usarla sin miedo.
+## 👋 whoami
 
-- Vivo en la **arquitectura de wallets** e **infraestructura de digital assets**: custodia, firmas, el detalle aburrido-pero-crítico que hace que todo lo demás sea seguro.
-- Mi terreno es **Stellar / Soroban** y **smart contracts**, con **Next.js + TypeScript** cuando el producto necesita cara.
-- Me atraen los proyectos donde la **privacidad** pesa: checks que dejan la data sensible en local y ZK proofs que solo revelan lo justo.
-- Háblame de **Web3 en LATAM** y tienes toda mi atención.
+Hi, I'm **Emmi**, blockchain engineer and tech lead, broadcasting from Bolivia 🇧🇴.
+I build the infrastructure that moves digital assets, and I'm a little obsessed with
+making sure regular people can use it without being afraid of it.
 
+- 🏦 **Technical Account Manager at [BitGo](https://www.bitgo.com)** — institutional digital asset custody. Wallets, signing, and the boring-but-critical details that keep everything else safe.
+- ⭐ **Stellar Ambassador's program Country Lead** - Building the next amazing generation of DEVELOPERS. 
+- 🤖 Unapologetically obsessed with **AI and agents**. Mix that with blockchain and you get the perfect recipe, agents that can hold, move and verify value on their own.
+- 🎙️ Currently building my personal brand, **[@emmcriptada](https://instagram.com/emmcriptada)** — AI & Web3 explained in plain Spanish for people who never thought tech was for them.
+- 🌱 **My mission:** help people who want to become great and actually get there — through community, mentorship and shipping real things. 
+- 💬 Talk to me about **Web3 in LATAM** and you'll have my full attention.
 <br>
 
 <div align="center">
