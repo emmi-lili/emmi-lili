@@ -1,0 +1,13 @@
+{
+  "title": "Skill Radar",
+  "_comment": "Self-rated, 0-100. Edit these and the Charts workflow redraws the radar.",
+  "axes": [
+    { "label": "Blockchain / Web3",     "value": 88 },
+    { "label": "Stellar / Soroban",     "value": 82 },
+    { "label": "Smart Contracts",       "value": 75 },
+    { "label": "Next.js / React",       "value": 85 },
+    { "label": "TypeScript",            "value": 84 },
+    { "label": "Wallet Architecture",   "value": 80 },
+    { "label": "Digital Assets Infra",  "value": 78 }
+  ]
+}
