@@ -1,0 +1,31 @@
+# Contribution snake — Platane/snk → output branch.
+# Repo Settings → Actions → General → Workflow permissions → Read and write permissions.
+name: Contribution snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: emmi-lili
+          outputs: |
+            dist/snake.svg?palette=github-light
+            dist/snake-dark.svg?color_snake=#aa9bef&color_dots=#2d3343,#3d2f5c,#55427a,#6f58a0,#aa9bef
+
+      - uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
