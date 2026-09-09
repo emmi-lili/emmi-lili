@@ -159,14 +159,14 @@ def floyd_steinberg(gray: np.ndarray) -> np.ndarray:
 def portrait_points(theme: str, rng: np.random.Generator) -> np.ndarray:
     """Return sampled x/y banner coordinates from a 300x340 dither grid."""
     source = Image.open(SOURCE).convert("RGBA")
-    # Head, shoulders, crossed arms, and upper torso; intentionally not a face crop.
-    crop = source.crop((0, 55, 408, 518)).resize((300, 340), Image.Resampling.LANCZOS)
+    # Tighter head + shoulders crop so face detail fills the VISUAL.MAP frame.
+    crop = source.crop((18, 28, 390, 450)).resize((300, 340), Image.Resampling.LANCZOS)
     rgb = crop.convert("RGB")
     alpha = np.asarray(crop.getchannel("A"), dtype=np.float32) / 255.0
 
     if theme == "dark":
         lum = np.asarray(ImageOps.grayscale(rgb), dtype=np.float32)
-        prepared = Image.fromarray(np.uint8(lum * alpha), "L")
+        prepared = Image.fromarray(np.uint8(np.clip(lum * alpha, 0, 255)), "L")
         select_lit = True
     else:
         white = Image.new("RGBA", crop.size, "white")
@@ -174,28 +174,28 @@ def portrait_points(theme: str, rng: np.random.Generator) -> np.ndarray:
         prepared = ImageOps.grayscale(white.convert("RGB"))
         select_lit = False
 
-    prepared = ImageOps.autocontrast(prepared, cutoff=1)
-    prepared = ImageEnhance.Contrast(prepared).enhance(1.3)
-    prepared = prepared.filter(ImageFilter.UnsharpMask(radius=3, percent=140, threshold=2))
+    # Equalize against the subject only (ignore empty alpha) so lit skin vs dark
+    # hair doesn't crush midtones; then punch local contrast for facial edges.
+    if theme == "dark":
+        mask = Image.fromarray(np.uint8((alpha > 0.08) * 255), "L")
+        prepared = ImageOps.equalize(prepared, mask=mask)
+    else:
+        prepared = ImageOps.autocontrast(prepared, cutoff=1)
+    prepared = ImageEnhance.Contrast(prepared).enhance(1.35)
+    prepared = prepared.filter(ImageFilter.UnsharpMask(radius=2, percent=175, threshold=1))
     bits = floyd_steinberg(np.asarray(prepared))
     active = bits if select_lit else ~bits
     if theme == "dark":
         active &= alpha > 0.08
 
-    # One representative per 2x2 cell keeps the 300x340 source grid while
-    # reducing SVG complexity. Occupancy controls sampling density.
-    points: list[tuple[float, float]] = []
-    for y in range(0, 340, 2):
-        for x in range(0, 300, 2):
-            ys, xs = np.where(active[y : y + 2, x : x + 2])
-            count = len(xs)
-            if count and rng.random() < min(1.0, 0.22 + count * 0.25):
-                pick = int(rng.integers(count))
-                points.append((74 + x + int(xs[pick]), 154 + y + int(ys[pick])))
-    arr = np.asarray(points, dtype=np.float32)
-    if len(arr) > 12000:
-        arr = arr[rng.choice(len(arr), 12000, replace=False)]
-    return arr
+    # Keep the full 300×340 lattice — skipping 2×2 cells was the soft/blurry look.
+    ys, xs = np.where(active)
+    if len(xs) == 0:
+        return np.zeros((0, 2), dtype=np.float32)
+    points = np.column_stack((74 + xs, 154 + ys)).astype(np.float32)
+    if len(points) > 18000:
+        points = points[rng.choice(len(points), 18000, replace=False)]
+    return points
 
 
 def sample_logo_points(
