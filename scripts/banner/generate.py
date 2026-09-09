@@ -39,7 +39,7 @@ ROWS = [
     ("Core.Lang", "TypeScript · Rust · Solidity"),
     ("Core.Frontend", "React · Next.js"),
     ("Core.Backend", "Node · Python"),
-    ("Core.Database", "Postgres"),
+    ("Core.Database", "Postgres · Supabase"),
     ("Core.Infra", "Docker · GitHub"),
     ("Grid.Mail", "—"),
     ("Grid.Portfolio", "coming soon"),
