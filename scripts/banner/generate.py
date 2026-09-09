@@ -40,7 +40,7 @@ ROWS = [
     ("Core.Frontend", "React · Next.js"),
     ("Core.Backend", "Node · Python"),
     ("Core.Database", "Postgres · Supabase"),
-    ("Core.Infra", "Vercel · AWS · Docker"),
+    ("Core.Infra", "Vercel · Docker · AWS"),
     ("Grid.Mail", "—"),
     ("Grid.Portfolio", "coming soon"),
     ("Grid.LinkedIn", "/in/emmi-aguilar-rivero"),
