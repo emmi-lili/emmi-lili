@@ -118,27 +118,6 @@ making sure regular people can use it without being afraid of it.
 
 <img src="assets/metrics.languages.svg" height="165" alt="most used languages">
 
-<br>
-
-<img src="assets/metrics.habits.svg" height="165" alt="coding habits">
-
-</div>
-
----
-
-<div align="center">
-
-## trail
-
-<!-- Contribution snake from Platane/snk → branch `output`.
-     Only shows after .github/workflows/snake.yml has run green once.
-     Repo Settings → Actions → General → Workflow permissions → Read and write. -->
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/emmi-lili/emmi-lili/output/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/emmi-lili/emmi-lili/output/snake.svg">
-  <img src="https://raw.githubusercontent.com/emmi-lili/emmi-lili/output/snake-dark.svg" width="100%" alt="contribution snake">
-</picture>
-
 </div>
 
 ---
