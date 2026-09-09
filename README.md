@@ -38,7 +38,7 @@ Hi, I'm **Emmi**, blockchain engineer and tech lead, broadcasting from Bolivia �
 I build the infrastructure that moves digital assets, and I'm a little obsessed with
 making sure regular people can use it without being afraid of it.
 
-- 🏦 **Technical Account Manager at [BitGo](https://www.bitgo.com)**: institutional digital asset custody. Wallets, signing, and the boring-but-critical details that keep everything else safe.
+- 🏦 **Technical Account Manager at [BitGo](https://www.bitgo.com)**: bridging the real world and crypto through institutional digital asset custody, wallets, and signing infrastructure.
 - ⭐ **Stellar Ambassador's program Country Lead** - Building the next amazing generation of DEVELOPERS. 
 - 🤖 Unapologetically obsessed with **AI and agents**. Mix that with blockchain and you get the perfect recipe, agents that can hold, move and verify value on their own.
 - 🎙️ Currently building my personal brand, **[@emmcriptada](https://instagram.com/emmcriptada)**: AI & Web3 explained in plain Spanish for people who never thought tech was for them.
