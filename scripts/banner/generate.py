@@ -467,7 +467,7 @@ def main() -> None:
         for name, points in sampled.items():
             np.save(DATA / f"{name}-{theme}.npy", points)
         svg = render_svg(theme, portraits[theme], sampled, rng)
-        output = ASSETS / f"banner-{theme}.svg"
+        output = ASSETS / f"banner-{theme}.v7.svg"
         output.write_text(svg, encoding="utf-8")
         byte_size = output.stat().st_size
         print(
