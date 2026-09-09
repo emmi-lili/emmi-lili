@@ -35,7 +35,7 @@ ROWS = [
     ("Origin", "Bolivia"),
     ("Education", "Community · LATAM"),
     ("Status", "Building + Learning + Shipping"),
-    ("ToolChain", "VS Code · Git · Cursor"),
+    ("ToolChain", "Sublime · Cursor · Git"),
     ("Core.Lang", "TypeScript · Rust · Solidity"),
     ("Core.Frontend", "React · Next.js · Three.js · Tailwind"),
     ("Core.Backend", "Node · Python"),
@@ -467,7 +467,7 @@ def main() -> None:
         for name, points in sampled.items():
             np.save(DATA / f"{name}-{theme}.npy", points)
         svg = render_svg(theme, portraits[theme], sampled, rng)
-        output = ASSETS / f"banner-{theme}.v7.svg"
+        output = ASSETS / f"banner-{theme}.v8.svg"
         output.write_text(svg, encoding="utf-8")
         byte_size = output.stat().st_size
         print(
