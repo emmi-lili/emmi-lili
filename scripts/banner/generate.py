@@ -37,7 +37,7 @@ ROWS = [
     ("Status", "Building + Learning + Shipping"),
     ("ToolChain", "VS Code · Git · Cursor"),
     ("Core.Lang", "TypeScript · Rust · Solidity"),
-    ("Core.Frontend", "React · Next.js"),
+    ("Core.Frontend", "React · Next.js · Three.js · Tailwind"),
     ("Core.Backend", "Node · Python"),
     ("Core.Database", "Postgres · Supabase"),
     ("Core.Infra", "Vercel · Docker · AWS"),
