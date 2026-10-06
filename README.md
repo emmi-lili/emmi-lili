@@ -33,7 +33,7 @@
 
 ## This is me :)
 
-Hi, I'm **Emmi**, blockchain engineer and tech lead, broadcasting from Bolivia 🇧🇴.
+Hi, I'm **Roronoa**, blockchain engineer and tech lead, broadcasting from Bolivia 🇧🇴.
 I build the infrastructure that moves digital assets, and I'm a little obsessed with
 making sure regular people can use it without being afraid of it.
 
